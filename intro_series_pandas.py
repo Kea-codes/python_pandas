@@ -1,0 +1,14 @@
+import pandas as pd
+
+data = [100,103, 104]
+
+series = pd.Series(data, index= ["a","b" , "c"])
+print(f"printing the series:\n{series}")
+
+# LOCATING A VLUE AT A VERTAIN LABLE
+print(f"Locating a value at lable a: {series.loc["a"]}")
+print(f"Locating a value at lable b: {series.loc["b"]}")
+print(f"Locating a value at lable c: {series.loc["c"]}")
+
+# INTEGER LOCATION
+print(f"printing integer location index 0: {series.iloc[0]}")
