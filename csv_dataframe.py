@@ -1,7 +1,7 @@
 import pandas as pd
 
 # CREATING THE DATAFRAME AND READING THE CSV FILE
-df = pd.read_csv("pokemon.csv", index_col = "Name") #Setting theindex of the rows to be names
+df = pd.read_csv("pokemon.csv", index_col = "Name") #Setting the index of the rows to be names
 print(df) # PRINTING THE DATA FRAME
 
 # SELECTION BY COLUMN
