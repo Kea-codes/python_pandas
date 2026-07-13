@@ -12,3 +12,5 @@ print(f"Locating a value at lable c: {series.loc["c"]}")
 
 # INTEGER LOCATION
 print(f"printing integer location index 0: {series.iloc[0]}")
+print(f"printing integer location index 1: {series.iloc[1]}")
+print(f"printing integer location index 2: {series.iloc[2]}")
