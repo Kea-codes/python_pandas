@@ -29,8 +29,9 @@ df = pd.read_csv("pokemon.csv")
 #------------Grouping by---------------------
 
 #grouping by type 1
-group = df.groupby("Type 1") # GRASS FIRE ROCK ...
-print(group["Speed"].mean()) # THE AVERAGE SPEED FOR EACH GROUP
-print(group["Speed"].sum()) # THE SUM SPEED FOR EACH GROUP
-print(group["Speed"].min()) # THE MIN SPEED FOR EACH GROUP
-print(group["Speed"].max()) # THE MAX SPEED FOR EACH GROUP
+# group = df.groupby("Type 1") # GRASS FIRE ROCK ...
+# print(group["Speed"].mean()) # THE AVERAGE SPEED FOR EACH GROUP
+# print(group["Speed"].sum()) # THE SUM SPEED FOR EACH GROUP
+# print(group["Speed"].min()) # THE MIN SPEED FOR EACH GROUP
+# print(group["Speed"].max()) # THE MAX SPEED FOR EACH GROUP
+# print(f"ROWS: {group["Speed"].count()}") # THE TOTAL row NUMBER FOR EACH GROUP
