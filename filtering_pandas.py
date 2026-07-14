@@ -20,5 +20,6 @@ legendary_pokemo = df[df["Legendary"] == True]
 water_pokemons = df[(df["Type 1"] == "Water") | (df["Type 2"]== "Water")]
 #print(water_pokemons)
 
+# POKEMONS WITH TYPE 1 FIRE AND TYPE 2 FLYING 
 FF_pokemons = df[(df["Type 1"] == "Fire") & (df["Type 2"]== "Flying")]
 print(FF_pokemons)
