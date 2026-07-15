@@ -8,7 +8,7 @@ df = pd.read_csv("pokemon.csv")
 print(df)
 
 #-------------Handle missing data----------------
-#removing rows that DO have not TYPE2
+#removing rows that DONOT have TYPE2
 df = df.dropna(subset=["Type 2"])
 print(df.to_string()) #to_string to see evrything in the dataframe
 
@@ -21,7 +21,7 @@ df["Type 1"] = df["Type 1"].replace({"Grass": "GRASS"})
 print(df)
 
 #-------------Standardize text-------------------
-#Making the text in the  in the Name column to be lower case
+#Making the text in the Name column to be lower case
 df["Name"] = df["Name"].str.lower() 
 print(df)
 
