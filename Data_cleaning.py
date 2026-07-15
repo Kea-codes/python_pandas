@@ -25,4 +25,7 @@ print(df)
 df["Name"] = df["Name"].str.lower() 
 print(df)
 
+#---------------Removing Duplicates---------------
+df = df.drop_duplicates()
+print(df)
 
